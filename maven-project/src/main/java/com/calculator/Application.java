@@ -4,7 +4,7 @@ public class Application {
 	
 	public String Welcome()
 	{
-		return "Welcome to Calculator Application";
+		return "Welcome to Calculator App";
 	}
 	
 }
