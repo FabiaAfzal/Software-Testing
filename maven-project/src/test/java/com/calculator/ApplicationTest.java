@@ -15,11 +15,6 @@ public class ApplicationTest {
 	}
 	
 	@Test
-	public void applicationTest()
-	{
-		assertTrue(true);
-	}
-	@Test
 	public void testAddition()
 	{
 		assertEquals(5,calApplication.addition(3,2));

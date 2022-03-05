@@ -1,12 +1,12 @@
 package com.calculator;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class IntegrationTest {
+	
 public static Application calApplication;
 	
 	@BeforeClass
@@ -15,18 +15,18 @@ public static Application calApplication;
 	}
 	
 	@Test
-	public void applicationTest()
-	{
-		
-		assertTrue(true);
-	}
-	@Test
-	public void testintegration() {
+	public void testintegration1() {
 		assertEquals(6,calApplication.subtraction(calApplication.addition(4,4),calApplication.addition(1,1)));
 	}
+	
 	@Test
-	public void testintegration1() {
+	public void testintegration2() {
 		assertEquals(16,calApplication.multiplication(calApplication.addition(4,4),calApplication.addition(1,1)));
+	}
+	
+	@Test
+	public void testintegration3() {
+		assertEquals(2,calApplication.division(calApplication.subtraction(10,2),calApplication.addition(2,2)));
 	}
 	
 }
