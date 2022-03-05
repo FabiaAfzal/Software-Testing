@@ -1,7 +1,5 @@
 package com.calculator;
 
-import java.util.Scanner;
-
 public class Application {
 	
 	public Application() {
@@ -13,24 +11,19 @@ public class Application {
 	}
 	public int addition(int a, int b)
 	{
-		return a + b;
+		return 0;
 	}
 	public int subtraction(int a, int b)
 	{
-		return a - b;
+		return 0;
 	}
 	public int multiplication(int a, int b)
 	{
-		return a * b;
+		return 0;
 	}
 	public int division(int a, int b)
 	{
-		return a / b;
+		return 0;
 	}
 
-	public static void main(String[] args)
-	{
-		Application obj=new Application();
-		obj.welcome(".....Welcome to the Calculator Application.....");
-}
 }

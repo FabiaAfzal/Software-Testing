@@ -17,7 +17,6 @@ public class ApplicationTest {
 	@Test
 	public void applicationTest()
 	{
-		
 		assertTrue(true);
 	}
 	@Test
