@@ -21,17 +21,24 @@ public class ApplicationTest {
 		assertTrue(true);
 	}
 	@Test
-	public void testadd()
+	public void testAddition()
 	{
 		assertEquals(5,calApplication.addition(3,2));
 	}
 	@Test
-	public void testsubtraction()
+	public void testubtraction()
 	{
 		assertEquals(1,calApplication.subtraction(3,2));
 	}
 	@Test
-	public void testintegration() {
-		assertEquals(6,calApplication.subtraction(calApplication.addition(4,4),calApplication.addition(1,1)));
+	public void testMultiplication()
+	{
+		assertEquals(6,calApplication.multiplication(3,2));
 	}
+	@Test
+	public void testDivision()
+	{
+		assertEquals(1,calApplication.division(3,2));
+	}
+	
 }
