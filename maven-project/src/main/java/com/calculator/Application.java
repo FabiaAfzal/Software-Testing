@@ -27,12 +27,10 @@ public class Application {
 	{
 		return a / b;
 	}
-<<<<<<< HEAD
-=======
+
 	public static void main(String[] args)
 	{
 		Application obj=new Application();
 		obj.welcome(".....Welcome to the Calculator Application.....");
-	}
->>>>>>> branch 'master' of https://github.com/FabiaAfzal/Software-Testing.git
+}
 }
