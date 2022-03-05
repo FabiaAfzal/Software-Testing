@@ -16,7 +16,7 @@ public static Application calApplication;
 	
 	@Test
 	public void testintegration1() {
-		assertEquals(6,calApplication.subtraction(calApplication.addition(4,4),calApplication.addition(1,1)));
+		assertEquals(2,calApplication.subtraction(calApplication.addition(3,5),calApplication.addition(2,4)));
 	}
 	
 	@Test
