@@ -27,4 +27,5 @@ public class Application {
 	{
 		return a / b;
 	}
+
 }
