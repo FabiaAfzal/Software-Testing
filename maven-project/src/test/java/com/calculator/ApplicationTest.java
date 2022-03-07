@@ -45,4 +45,10 @@ public class ApplicationTest {
 		assertEquals(1,calApplication.division(3,2));
 	}
 	
+	@Test
+	public void testDivision1()
+	{
+		assertEquals(4,calApplication.division(8,2));
+	}
+	
 }
