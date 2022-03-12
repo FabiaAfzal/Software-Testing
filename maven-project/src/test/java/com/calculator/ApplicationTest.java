@@ -45,5 +45,10 @@ public class ApplicationTest {
 	{
 		assertEquals(8,calApplication.subtraction(10,2));
 	}
+	@Test
+	public void testMultiplication1()
+	{
+		assertEquals(9,calApplication.multiplication(3,3));
+	}
 	
 }
