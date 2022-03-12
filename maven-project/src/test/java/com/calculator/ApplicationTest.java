@@ -20,16 +20,6 @@ public class ApplicationTest {
 		assertEquals(5,calApplication.addition(3,2));
 	}
 	@Test
-	public void testAddition1()
-	{
-		assertEquals(7,calApplication.addition(5,2));
-	}
-	@Test
-	public void testsubtraction1()
-	{
-		assertEquals(3,calApplication.subtraction(5,2));
-	}
-	@Test
 	public void testubtraction()
 	{
 		assertEquals(1,calApplication.subtraction(3,2));
@@ -45,10 +35,5 @@ public class ApplicationTest {
 		assertEquals(1,calApplication.division(3,2));
 	}
 	
-	@Test
-	public void testDivision1()
-	{
-		assertEquals(4,calApplication.division(8,2));
-	}
 	
 }
