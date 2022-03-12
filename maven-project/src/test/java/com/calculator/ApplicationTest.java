@@ -40,6 +40,10 @@ public class ApplicationTest {
 	{
 		assertEquals(1,calApplication.division(3,2));
 	}
-	
+	@Test
+	public void testubtraction1()
+	{
+		assertEquals(8,calApplication.subtraction(10,2));
+	}
 	
 }
